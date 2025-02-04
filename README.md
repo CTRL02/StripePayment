@@ -26,6 +26,7 @@ This repository demonstrates a simple integration of **Stripe** for processing p
     - To test your webhook, you can use Stripe CLI to simulate Stripe events.
 ---
 
+**Note**: Do not forget to include both api keys (private and published in appsettings.json and you will get them from stripe, publish key is used in frontend while private used in backend to verify requests from the backend to stripe.)
 
 **Security**:
    -It is recommended not to accept full price from frontend but instead check order details saved in the database and charge the customer accordingly to avoid false 
