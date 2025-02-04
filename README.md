@@ -27,3 +27,6 @@ This repository demonstrates a simple integration of **Stripe** for processing p
 ---
 
 
+**Security**:
+   -It is recommended not to accept full price from frontend but instead check order details saved in the database and charge the customer accordingly to avoid false 
+        information from frontside.
